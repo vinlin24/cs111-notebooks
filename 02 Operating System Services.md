@@ -138,3 +138,16 @@ Services: under the covers:
 * Software updates and configuration registry
 * Dynamic resource allocation and scheduling
 * Networks, protocols, and domain services
+
+
+<!-- Lecture 02 continued (1/17/2023) -->
+
+Services: delivery methods:
+
+* Subroutines
+* **System calls**
+* Send messages to *other* software that performs such services
+
+**Main point:** each option works at a different *layer* of the stack of software. Operating systems are inherently **layered systems** due to the need for abstraction (complexity management).
+
+![](2023-01-19-20-19-11.png)
